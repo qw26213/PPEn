@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html class="first">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>拉斯维加斯国际娱乐城</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swfobject.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css" media="all">
+</head>
+<body class="topbody">
+    <div class="header-outside">
+        <div class="header clearfix">
+            <div class="header-top clearfix">
+                <!-- lang -->
+                <span class="lang-wrap">
+                    <span class="ele-lang-wrap">
+                        <a href="" class="ele-lang-option ele-lang-zh-tw" title="繁體中文"></a>
+                        <a href="" class="ele-lang-option ele-lang-zh-cn" title="简体中文"></a>
+                        <a href="" class="ele-lang-option ele-lang-en" title="English"></a>
+                    </span>
+                </span>
+                <div class="top-link-area">
+                    <a href="" class="top-custom-link" style="color: rgb(157, 157, 157);">
+                        设为首页
+                    </a> &nbsp;|&nbsp; <a href="" target="_top" class="top-custom-link" style="color: rgb(220, 196, 86);">
+                        红包查询
+                    </a> &nbsp;|&nbsp; <a href="" target="_top" class="top-custom-link" style="color: rgb(157, 157, 157);">
+                        線路檢測
+                    </a> &nbsp;|&nbsp; <a href="" target="_top" class="top-custom-link" style="color: rgb(157, 157, 157);">
+                        新手教程
+                    </a> &nbsp;|&nbsp; <a href="" target="_top" class="top-custom-link" style="color: rgb(157, 157, 157);">
+                        会员资讯
+                    </a>
+                </div>
+            </div>
+            <!-- LOGO -->
+            <div class="header-logo">
+                <div id="ele-logo-wrap">
+                    <a href="" id="ele-logo-img" title="拉斯维加斯国际娱乐城 首页"></a>
+                </div>
+            </div>
+            <div class="header-right clearfix">
+            <!-- 登录前 -->
+                <div class="login-top">
+                    <div class="login-wrap clearfix">
+                        <form name="LoginForm" id="LoginForm" action="" method="POST">
+                            <p class="login-unit login-unit-user">
+                                <label style="opacity: 1;" name="username" for="username" class="login-placeholder">帐号</label>
+                                <input value="" name="username" size="12" id="username" title="请填写 4-15 位大小写英数字" maxlength="15" class="login-input login-acc" tabindex="1" required type="text">
+                                <span id="js-acc-unicode" class="acc-unicode">@lsw</span>
+                            </p>
+                            <p class="login-unit login-unit-pwd">
+                                <label style="opacity: 1;" name="passwd" for="passwd" class="login-placeholder">密码</label>
+                                <input name="passwd" autocomplete="off" size="13" id="passwd" title="请填写 6-12 位大小写英数字" maxlength="13" class="login-input login-pwd" tabindex="2" pattern="[a-zA-Z0-9]{6,13}" required type="password">
+                            </p>
+                            <p class="login-unit login-unit-chk">
+                                <label style="opacity: 1;" name="rmNum" for="rmNum" class="login-placeholder">验证码</label>
+                                <input value="" name="rmNum" id="rmNum" size="7" maxlength="4" title="( 点选此处产生新验证码 )" class="login-input " type="text">
+                                <img src="images/transparentno.gif" id="vPic" title="( 点选此处产生新验证码 )" onclick="getKey();" width="40" height="18">
+                            </p>
+                            <input name="Submit" value="" class="login-submit" tabindex="4" type="submit">
+                            <div class="login-link-area">
+                                <a href="">忘记密码</a>&nbsp;/&nbsp;
+                                <a href="">注册</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            <!-- 登录后 uhide去掉-->
+                <div class="login-mem clearfix uhide">
+                    <div class="SU-Menual clear">
+                        <ul class="login-Menual clearfix">
+                            <li>
+                                <a id="su-macenter" href="javascript:" title="会员中心">会员中心</a>
+                            </li>
+                            <li>
+                                ｜ <a id="su-deposite" href="javascript:" title="线上存款">线上存款</a>
+                            </li>
+                            <li>
+                                ｜ <a id="su-withdraw" href="javascript:" title="线上取款">线上取款</a>
+                            </li>
+                            <li>
+                                ｜ <a id="su-switch" href="javascript:" title="额度转换">额度转换</a>
+                            </li>
+                            <li>
+                                ｜ <a id="su-switch" href="javascript:" title="未读讯息">未读讯息(1)</a>
+                            </li>
+                            <a href="javascript:" class="btn-logout">登出</a>
+                        </ul>
+                    </div>
+                    <div class="mem-info">
+                        <div class="mem-info-left"></div>
+                        <div class="mem-info-body">
+                        <div class="ele-accinfo ele-acc-name"><span>帐号：</span><strong>qw26213</strong></div>
+                            <div class="ele-acc-unit">
+                                <div id="_bbsportBalance" class="ele-accinfo ele-first-balance">
+                                    <span>BBIN 余额：</span>
+                                    <strong>0</strong>
+                                </div>
+                                <div id="js-ele-obalance-wrap" class="ele-obalance-wrap">
+                                    <div class="ele-accinfo ele-other-balance">
+                                        <i class="fa fa-plus-square"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mem-info-right"></div>
+                    </div>
+                    <!--  sub  -->
+                </div>
+                <!-- 主選單 -->
+                <div class="mainnav-wrap clear">
+                    <!-- 主選單 -->
+                    <div class="mainnav" data-lsub-style="fade">
+                        <ul class="clearfix">
+                            <li id="LS-first" class="LS-first">
+                                <a href="" class="current" title="首页">首页</a>
+                            </li>
+                            <li id="LS-live" class="LS-live">
+                                <a href="" title="视讯直播">视讯直播</a>
+                            </li>
+                            <li id="LS-ball" class="LS-ball">
+                                <a href="" title="体育赛事">体育赛事</a>
+                            </li>
+                            <li id="LS-game" class="LS-game">
+                                <a href="" title="电子游艺">电子游艺</a>
+                            </li>
+                            <li id="LS-ltlottery" class="LS-ltlottery">
+                                <a href="" title="彩票游戏">彩票游戏</a>
+                            </li>
+                            <li id="LS-memberexclusiveii" class="LS-memberexclusiveii">
+                                <a style="color: rgb(255, 255, 0);" href="" class="" title="优惠活动" data-color="#FFF|#FF0">优惠活动</a>
+                            </li>
+                            <li id="LS-mobile" class="LS-mobile">
+                                <a href="" title="手机下注">手机下注</a>
+                            </li>
+                            <li id="LS-service" class="LS-service">
+                                <a href="" title="在线客服">在线客服</a>
+                            </li>
+                            <li id="LS-joinmember" class="LS-joinmember">
+                                <a href="" title="立即注册">立即注册</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- est -->
+            <div class="est-wrap">
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="ad-warp">
+        <div class="ad-flash">
+            <div id="js-ele-slider" class="ele-slider-wrap">
+                <object style="visibility: visible;" id="js-ele-slider-swf" data="140245147528.swf" type="application/x-shockwave-flash" width="1680" height="585">
+                    <param value="transparent" name="wmode">
+                    <param value="high" name="quality">
+                    <param value="xml_url=/cl/index.php,MLoopAD" name="flashvars">
+                </object>
+                <script>
+                (function() {
+                    var flashvars = {},
+                        attributes = {},
+                        params = {
+                            wmode: 'transparent',
+                            quality: 'high',
+                            flashvars: 'xml_url=/cl/index.php,MLoopAD'
+                        };
+                    swfobject.embedSWF('images/140245147528.swf', 'js-ele-slider-swf', '1680', '585', '8.0.35.0', 'images/expressInstall.swf', flashvars, params, attributes);
+                })();
+                </script>
+            </div>
+        </div>
+    </div>
+    <div id="page-container">
+        <div id="page-body" class="clearfix">
+            <div class="first-box-left">
+                <!-- 最新消息 -->
+                <div class="news-wrap clearfix">
+                    <div class="news-item">
+                        <div class="ele-msg-cp" id="first-news">
+                            <div class="ele-news-txt" style="display: inline-block; height: 110px; overflow: hidden; word-break: break-all; word-wrap: break-word;">
+                                <marquee direction="up" onMouseOut="this.start()" onMouseOver="this.stop()" behavior="scroll" scrolldelay="1" scrollamount="2" width="175" height="110"> 好消息：北京时间09月04日12:00至09月05日11:59参加投注的均已派发天天反水金额，敬请广大会员留意账号余额变动；拉斯维加斯国际娱乐城感谢您的支持，祝您游戏愉快！多多盈利
+                                    <br>
+                                    <br>好消息：拉斯维加斯际娱乐城2016年08月份【月负利、盈利奖金】均已发放到各个会员账号上请留意账号余额，下期计算时间为【2016年09月01--09月30】敬请期待！
+                                    <br>
+                                    <br>尊贵的会员：拉斯维加斯国际娱乐城每月免费筹码（美东时间2016年07月15日--2016年08月14日），达到条件者均已发放到各个会员账号上敬请查收！下期计算时间为（08月15日~09月14日）敬请期待！
+                                    <br>
+                                    <br>【重要通知】因业务需要公司不定期更换入款账号、支付宝、微信账号，为避免入款至我司已停用的的账号中，存款前请您进入网站“公司入款”获取最新入款账号，请广大会员留意，谢谢！
+                                    <br>
+                                    <br>
+                                </marquee>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="pic-service"></a>
+            </div>
+            <div class="first-box-center">
+                <div class="first-jp-wrap">
+                    <div class="ele-jackpot-wrap">
+                        <!-- BB彩金 -->
+                        <div class="ele-jackpot ele-jackpot-explain" data-hall="bbin">
+                            <span class="js-ele-JP1">8,362,294.33</span>
+                        </div>
+                        <object style="visibility: visible;" id="js-ele-jpRemote" data="ejpremote.swf" type="application/x-shockwave-flash" width="0" height="0">
+                            <param value="allowScriptAccess=always&amp;flashvars=uid=guest&amp;hallid=248" name="flashvars">
+                        </object>
+                        <script>
+                        (function() {
+                            var flashvars = {},
+                                attributes = {},
+                                params = {
+                                    allowScriptAccess: 'always',
+                                    flashvars: 'uid=guest&hallid=248'
+                                };
+                            swfobject.embedSWF('images/EjpRemote.swf', 'js-ele-jpRemote', '0', '0', '8.0.35.0', flashvars, params, attributes);
+                        })();
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div class="first-game-wrap first-box-right">
+                <div class="ele-firstgame-wrap" onselectstart="return false">
+                    <div class="clearfix ele-firstgame" id="js-firstgame-slider">
+                        <a href="" class="ele-firstgame-1">
+                            <span></span>
+                        </a>
+                        <a href="" class="ele-firstgame-2">
+                            <span></span>
+                        </a>
+                        <a href="" class="ele-firstgame-3">
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+                <script>
+                $('.ele-firstgame span').hover(function() {
+                    $(this).css("background-position-x", "-324px").parent().css("background-position-x", "0");
+                }, function() {
+                    $(this).css("background-position-x", "0").parent().css("background-position-x", "-324px");
+                });
+                </script>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
